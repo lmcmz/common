@@ -1,4 +1,4 @@
-package com.common;
+package com.daostack.common;
 
 import com.facebook.react.ReactActivity;
 
