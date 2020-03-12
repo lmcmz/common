@@ -45,12 +45,11 @@ def firebase
   pod 'Firebase/Performance'
 end
 
-
 # -------------------------------------------------- #
 def native
   # Native Dependencies
   pod 'Web3swift.pod', git: 'https://github.com/matter-labs/web3swift', branch: 'master'
-
+  pod 'KeychainAccess'
 end
 
 target 'common' do
@@ -58,5 +57,6 @@ target 'common' do
   
   reactnative
   firebase
+  native
   
 end
