@@ -60,6 +60,20 @@ public class WalletManager {
         }
     }
     
+    func createWallet(mnemonics: String) throws {
+        do {
+            guard let keystore = try BIP32Keystore(mnemonics: mnemonics) else {
+                throw WalletError.malformedKeystore
+            }
+            self.keystore = keystore
+            self.address = keystore.addresses?.first
+            try WalletManager.shared.saveKeystore(keystore)
+            web3Net.addKeystoreManager(KeystoreManager([keystore]))
+        } catch {
+            throw WalletError.malformedKeystore
+        }
+    }
+    
     /// Message is hex data string
     func signMessage(message: String) throws -> String? {
         

@@ -51,11 +51,6 @@ extension WalletManager {
             throw WalletError.invalidPath
         }
 
-//        guard let keystoreManager = KeystoreManager.managerForPath(userDir + Setting.KeystoreDirectoryName,
-//                                                                   scanForHDwallets: true) else {
-//            throw WalletError.malformedKeystore
-//        }
-
         guard let keystoreManager = try? loadFile(path: userDir + keystoreDirectoryName,
                                                   scanForHDwallets: true,
                                                   suffix: nil) else {
