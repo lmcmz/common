@@ -22,11 +22,6 @@ def reactnative
   pod 'React-RCTText', :path => '../node_modules/react-native/Libraries/Text'
   pod 'React-RCTVibration', :path => '../node_modules/react-native/Libraries/Vibration'
   pod 'React-Core/RCTWebSocket', :path => '../node_modules/react-native/'
-  pod 'Firebase/Core', '~> 6.18.0'
-  pod 'RNFirebase', :path => '../node_modules/react-native-firebase/ios'
-  pod 'Firebase/Firestore', '~> 6.18.0'
-  pod 'Firebase/Messaging', '~> 6.18.0'
-
   pod 'React-cxxreact', :path => '../node_modules/react-native/ReactCommon/cxxreact'
   pod 'React-jsi', :path => '../node_modules/react-native/ReactCommon/jsi'
   pod 'React-jsiexecutor', :path => '../node_modules/react-native/ReactCommon/jsiexecutor'
@@ -37,7 +32,9 @@ def reactnative
   pod 'DoubleConversion', :podspec => '../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
+  
   pod 'RNFirebase', :path => '../node_modules/react-native-firebase/ios'
+  pod 'react-native-safe-area-context', :path => '../node_modules/react-native-safe-area-context'
 end
 
 # -------------------------------------------------- #
@@ -49,6 +46,7 @@ def firebase
   pod 'Firebase/Messaging'
   pod 'Firebase/Analytics'
   pod 'Firebase/Performance'
+  pod 'Firebase/Firestore', '~> 6.18.0'
 end
 
 # -------------------------------------------------- #
@@ -64,5 +62,5 @@ target 'common' do
   reactnative
   firebase
   native
-  
+
 end

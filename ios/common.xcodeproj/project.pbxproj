@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-<<<<<<< HEAD
 		15E1ED02241A26D600651ACD /* WalletManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E1ED01241A26D600651ACD /* WalletManager.swift */; };
 		15E1ED07241A296400651ACD /* RNBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E1ED06241A296400651ACD /* RNBridge.m */; };
 		15E1ED09241A298900651ACD /* WalletModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E1ED08241A298900651ACD /* WalletModule.swift */; };
@@ -22,26 +21,9 @@
 		15E907332417D1BB008A5750 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15E907322417D1BB008A5750 /* Assets.xcassets */; };
 		15E907362417D1BB008A5750 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15E907342417D1BB008A5750 /* LaunchScreen.storyboard */; };
 		87B0C1E59CDCFC9100CDA4EB /* Pods_common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF0DD47D7175720C208EC137 /* Pods_common.framework */; };
-=======
-		00E356F31AD99517003FC87E /* commonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* commonTests.m */; };
-		0903CE05F48CF9FFE98109B1 /* libPods-commonTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4DCB3E2577B6C4DC07C4A17 /* libPods-commonTests.a */; };
-		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
-		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
-		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
-		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* commonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* commonTests.m */; };
-		34ED5B71F24CB7FE5B930092 /* libPods-common-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F32615461FE7A559346E3EC6 /* libPods-common-tvOS.a */; };
-		6ACA09671CF189EEEE14AAB0 /* libPods-common.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC00D58513AC440712A9BCEF /* libPods-common.a */; };
-		A2F43A06FAEC0CFFB9C7F5B0 /* libPods-common-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B56D4224B144B8E6CBA222 /* libPods-common-tvOSTests.a */; };
-		BDCCFD6624197F03004F5FEF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDCCFD6524197F03004F5FEF /* GoogleService-Info.plist */; };
->>>>>>> Setup Firebase both iOS and Android
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-<<<<<<< HEAD
 		15E1ED01241A26D600651ACD /* WalletManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletManager.swift; sourceTree = "<group>"; };
 		15E1ED03241A292C00651ACD /* common-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "common-Bridging-Header.h"; sourceTree = "<group>"; };
 		15E1ED06241A296400651ACD /* RNBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNBridge.m; sourceTree = "<group>"; };
@@ -61,36 +43,6 @@
 		8176DBE3AB11163B0B306296 /* Pods-common.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-common.debug.xcconfig"; path = "Target Support Files/Pods-common/Pods-common.debug.xcconfig"; sourceTree = "<group>"; };
 		F1BF1DE08F10CFCB6DA03FE3 /* Pods-common.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-common.release.xcconfig"; path = "Target Support Files/Pods-common/Pods-common.release.xcconfig"; sourceTree = "<group>"; };
 		FF0DD47D7175720C208EC137 /* Pods_common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-=======
-		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* commonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = commonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* commonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = commonTests.m; sourceTree = "<group>"; };
-		0FC4A8D41F2BF23596527E9D /* Pods-commonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-commonTests.debug.xcconfig"; path = "Target Support Files/Pods-commonTests/Pods-commonTests.debug.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* common.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = common.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = common/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = common/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = common/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = common/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = common/main.m; sourceTree = "<group>"; };
-		1E1339E16B91424EC47B68D9 /* Pods-commonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-commonTests.release.xcconfig"; path = "Target Support Files/Pods-commonTests/Pods-commonTests.release.xcconfig"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* common-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "common-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* common-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "common-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3AC04513352D40D7CABBA8ED /* Pods-common-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-common-tvOS.release.xcconfig"; path = "Target Support Files/Pods-common-tvOS/Pods-common-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		53B56D4224B144B8E6CBA222 /* libPods-common-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-common-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B024C03C8A3AD0B34393F14 /* Pods-common-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-common-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-common-tvOS/Pods-common-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		67447AE68F6E221245B705B9 /* Pods-common-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-common-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-common-tvOSTests/Pods-common-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		BDCCFD6524197F03004F5FEF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
-		C1714FDB6F3659663E704042 /* Pods-common-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-common-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-common-tvOSTests/Pods-common-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		DC00D58513AC440712A9BCEF /* libPods-common.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-common.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4DCB3E2577B6C4DC07C4A17 /* libPods-commonTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-commonTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7CA62E515F1323BF577BC7C /* Pods-common.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-common.release.xcconfig"; path = "Target Support Files/Pods-common/Pods-common.release.xcconfig"; sourceTree = "<group>"; };
-		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		ED9D52F5898096A3508DF5EC /* Pods-common.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-common.debug.xcconfig"; path = "Target Support Files/Pods-common/Pods-common.debug.xcconfig"; sourceTree = "<group>"; };
-		F32615461FE7A559346E3EC6 /* libPods-common-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-common-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
->>>>>>> Setup Firebase both iOS and Android
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,20 +106,9 @@
 		15E9073E2417D37E008A5750 /* Wallet */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
 				15E1ED01241A26D600651ACD /* WalletManager.swift */,
 				15E1ED0C241B360700651ACD /* WalletManager+Keystore.swift */,
 				15E1ED0E241B363C00651ACD /* WalletManager+Error.swift */,
-=======
-				BDCCFD6524197F03004F5FEF /* GoogleService-Info.plist */,
-				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
-				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
-				13B07FB01A68108700A75B9A /* AppDelegate.m */,
-				13B07FB51A68108700A75B9A /* Images.xcassets */,
-				13B07FB61A68108700A75B9A /* Info.plist */,
-				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
-				13B07FB71A68108700A75B9A /* main.m */,
->>>>>>> Setup Firebase both iOS and Android
 			);
 			path = Wallet;
 			sourceTree = "<group>";
@@ -186,24 +127,11 @@
 		15FFF667241866AA00AEBE9D /* Support */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
 				15E1ED0A241A365C00651ACD /* GoogleService-Info.plist */,
 				15E907372417D1BB008A5750 /* Info.plist */,
 				15E1ED03241A292C00651ACD /* common-Bridging-Header.h */,
 			);
 			path = Support;
-=======
-				ED9D52F5898096A3508DF5EC /* Pods-common.debug.xcconfig */,
-				E7CA62E515F1323BF577BC7C /* Pods-common.release.xcconfig */,
-				5B024C03C8A3AD0B34393F14 /* Pods-common-tvOS.debug.xcconfig */,
-				3AC04513352D40D7CABBA8ED /* Pods-common-tvOS.release.xcconfig */,
-				C1714FDB6F3659663E704042 /* Pods-common-tvOSTests.debug.xcconfig */,
-				67447AE68F6E221245B705B9 /* Pods-common-tvOSTests.release.xcconfig */,
-				0FC4A8D41F2BF23596527E9D /* Pods-commonTests.debug.xcconfig */,
-				1E1339E16B91424EC47B68D9 /* Pods-commonTests.release.xcconfig */,
-			);
-			path = Pods;
->>>>>>> Setup Firebase both iOS and Android
 			sourceTree = "<group>";
 		};
 		15FFF668241866D500AEBE9D /* Resource */ = {
@@ -249,7 +177,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 15E9073A2417D1BB008A5750 /* Build configuration list for PBXNativeTarget "common" */;
 			buildPhases = (
-<<<<<<< HEAD
 				95CC5F4E867E04ADB00B61B2 /* [CP] Check Pods Manifest.lock */,
 				15E907222417D1B9008A5750 /* Sources */,
 				15E907232417D1B9008A5750 /* Frameworks */,
@@ -258,15 +185,6 @@
 				15E907242417D1B9008A5750 /* Resources */,
 				15FFF66A2418682E00AEBE9D /* Fabric - Firebase */,
 				8246D95BAC3D5494F754901E /* [CP] Embed Pods Frameworks */,
-=======
-				E71D182079982243209CA71E /* [CP] Check Pods Manifest.lock */,
-				FD10A7F022414F080027D42C /* Start Packager */,
-				13B07F871A680F5B00A75B9A /* Sources */,
-				13B07F8C1A680F5B00A75B9A /* Frameworks */,
-				13B07F8E1A680F5B00A75B9A /* Resources */,
-				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				49C50EA38BCDB8AA2DF25C10 /* [CP] Copy Pods Resources */,
->>>>>>> Setup Firebase both iOS and Android
 			);
 			buildRules = (
 			);
@@ -313,36 +231,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-<<<<<<< HEAD
 		15E907242417D1B9008A5750 /* Resources */ = {
-=======
-		00E356EC1AD99517003FC87E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		13B07F8E1A680F5B00A75B9A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				BDCCFD6624197F03004F5FEF /* GoogleService-Info.plist in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2D02E4791E0B4A5D006451C7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2D02E48E1E0B4A5D006451C7 /* Resources */ = {
->>>>>>> Setup Firebase both iOS and Android
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -374,29 +263,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-<<<<<<< HEAD
 		15E907402417D541008A5750 /* Launch React Native Packager */ = {
-=======
-		49C50EA38BCDB8AA2DF25C10 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-common/Pods-common-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-C++/gRPCCertificates-Cpp.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gRPCCertificates-Cpp.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-common/Pods-common-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		647AE29F0E6A625AE8ACFCCF /* [CP] Check Pods Manifest.lock */ = {
->>>>>>> Setup Firebase both iOS and Android
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
