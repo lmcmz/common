@@ -12,8 +12,16 @@ There are two documentation options: Expo CLI Quickstart & React Native CLI Quic
 Choose the React Native CLI Quickstart and then choose whether you use a Mac, Linux or Windows
 
 ### Files containing keys
-You will need the `env.json` file from one of the members of the developer team to get started.
-This file is to be placed into the root folder of the project.
+
+You will need three files
+ 1. For React Native - `env.json`
+ 2. For iOS `GoogleService-Info.plist`
+ 3. For Android `google-services.json`
+
+You can ge these files from one of the members of the developer team to get started.
+The `env.json` is to be placed into the root folder of the React Native project.
+The `GoogleService-Info.plist` is to be placed in the `common/Support` folder
+The `google-services.json` file is to be placed in the `*to be filled*`
 
 ### Getting Started from the Common Github Repo
 
