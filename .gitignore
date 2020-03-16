@@ -29,7 +29,7 @@ build/
 local.properties
 *.iml
 #ENV
-env.json
+/env.json
 
 # node.js
 #
