@@ -612,14 +612,16 @@ DEPENDENCIES:
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
     - abseil
+    - BigInt
     - boost-for-react-native
     - BoringSSL-GRPC
     - Crashlytics
     - CryptoSwift
     - Fabric
     - Firebase
+    - FirebaseABTesting
     - FirebaseAnalytics
     - FirebaseAnalyticsInterop
     - FirebaseAuthInterop
@@ -630,6 +632,8 @@ SPEC REPOS:
     - FirebaseInstallations
     - FirebaseInstanceID
     - FirebaseMessaging
+    - FirebasePerformance
+    - FirebaseRemoteConfig
     - GoogleAppMeasurement
     - GoogleDataTransport
     - GoogleDataTransportCCTSupport
@@ -637,18 +641,13 @@ SPEC REPOS:
     - GoogleUtilities
     - "gRPC-C++"
     - gRPC-Core
+    - GTMSessionFetcher
+    - KeychainAccess
     - leveldb-library
     - nanopb
     - PromiseKit
     - PromisesObjC
     - Protobuf
-  trunk:
-    - BigInt
-    - FirebaseABTesting
-    - FirebasePerformance
-    - FirebaseRemoteConfig
-    - GTMSessionFetcher
-    - KeychainAccess
     - secp256k1.c
     - Starscream
 
@@ -783,6 +782,6 @@ SPEC CHECKSUMS:
   Web3swift.pod: 1abcfb4f1d13216a549f5a44a8f7212be1f604eb
   Yoga: f2a7cd4280bfe2cca5a7aed98ba0eb3d1310f18b
 
-PODFILE CHECKSUM: 6c4a5253d54be1994757926e1f367baaf9d91e48
+PODFILE CHECKSUM: dcf2043c9a53c28cb13d0ccd016b76e92f93edb2
 
-COCOAPODS: 1.8.0
+COCOAPODS: 1.7.5
