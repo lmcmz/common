@@ -43,6 +43,10 @@ in macOS `sdk.dir = /Users/USERNAME/Library/Android/sdk`
 
 in linux `sdk.dir = /home/USERNAME/Android/Sdk`
 
+Or this error `package android.support.annotation does not exist`
+
+Please enter command `npx jetify` in terminal. [StackOverflow](https://stackoverflow.com/questions/53235525/issues-using-androidx-and-react-native)
+
 ### Useful Download links
 
 ##### Android Studio
