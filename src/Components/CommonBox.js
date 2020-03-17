@@ -1,8 +1,10 @@
-import {Text, TouchableOpacity, View} from 'react-native';
+import {Dimensions, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import React from 'react';
-const CommonsBox = () => {
+const {height, width} = Dimensions.get('window');
+
+const CommonBox = (props) => {
   return (
-    <TouchableOpacity key={i} onPress={{}} style={styles.commonBox}>
+    <TouchableOpacity key={props.i} onPress={{}} style={styles.commonBox}>
       <View
         style={{
           width: '100%',
@@ -11,9 +13,11 @@ const CommonsBox = () => {
           paddingBottom: 50,
           borderTopLeftRadius: 15,
           borderTopRightRadius: 15,
-          backgroundColor,
+          backgroundColor: 'black',
         }}>
-        <Text style={{color, fontSize: 20, fontWeight: '700'}}>{dao.name}</Text>
+        <Text style={{color: 'white', fontSize: 20, fontWeight: '700'}}>
+          {props.common.name}
+        </Text>
       </View>
       <View
         style={{
@@ -37,7 +41,7 @@ const CommonsBox = () => {
             Reputation Holders
           </Text>
           <Text style={{fontSize: 25, fontWeight: '700'}}>
-            {dao.reputationHoldersCount}
+            {props.common.reputationHoldersCount}
           </Text>
         </View>
         <View
@@ -64,7 +68,7 @@ const CommonsBox = () => {
           </Text>
           <Text style={{fontSize: 25, fontWeight: '700'}}>
             {
-              dao.proposals.filter(
+              props.common.proposals.filter(
                 proposal =>
                   proposal.stage !== 'Executed' &&
                   proposal.stage !== 'ExpiredInQueue',
@@ -76,3 +80,24 @@ const CommonsBox = () => {
     </TouchableOpacity>
   );
 };
+
+const styles = StyleSheet.create({
+  commonBox: {
+    width: width - 36,
+    borderRadius: 14,
+    backgroundColor: '#ffffff',
+    shadowColor: 'rgba(0, 0, 0, 0.09)',
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowRadius: 13,
+    shadowOpacity: 1,
+    borderStyle: 'solid',
+    borderWidth: 1,
+    borderColor: '#eeeeee',
+    marginBottom: 10,
+  },
+});
+
+export default CommonBox

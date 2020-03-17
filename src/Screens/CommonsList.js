@@ -10,7 +10,7 @@ import {
   Image,
   ImageBackground,
 } from 'react-native';
-import CommonsBox from '../Components/CommonBox'
+import CommonBox from '../Components/CommonBox';
 import {Subscription} from 'react-apollo';
 import gql from 'graphql-tag';
 
@@ -110,9 +110,7 @@ const CommonsList = () => {
                       backgroundColor: 'black',
                       color: 'white',
                     };
-                    return (
-                      <CommonsBox image={} common={dao}/>
-                    );
+                    return <CommonBox image={''} common={dao} i={i} />;
                   })}
                 </View>
               </ScrollView>
